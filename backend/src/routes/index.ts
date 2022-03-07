@@ -15,7 +15,7 @@ router.post(
   new CreateMessageController().handle,
 );
 
-router.get('/messages/last3', new GetLast5MessagesController().handle);
+router.get('/messages/last5', new GetLast5MessagesController().handle);
 
 router.get('/profile', ensureAuthenticated, new ProfileUserController().handle);
 

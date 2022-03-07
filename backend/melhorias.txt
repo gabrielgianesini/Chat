@@ -1,0 +1,9 @@
+Verificar ajustes no app.ts e server.ts
+
+Criar app utilizando banco postgre
+
+Acrescentar Login com api do Google
+
+revisar a estrutura de arquivos
+
+Criar uma nova porta para socker como exercicio
