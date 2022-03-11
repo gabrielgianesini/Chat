@@ -1,0 +1,30 @@
+.containerLogin {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+}
+
+.inputLogin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 20vw;
+  background-color: #fff;
+  padding: 0 12px;
+  margin-top: 3px;
+  input {
+    height: 6vh;
+    border-radius: 2px;
+    width: 18vw;
+    outline: none;
+    font-size: 22px;
+  }
+  .iconButton {
+    background-color: #fff;
+    margin-left: 2px;
+    :hover {
+      cursor: pointer;
+    }
+  }
+}

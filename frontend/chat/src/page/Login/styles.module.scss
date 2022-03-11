@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  //margin: 0 16px;
+}
+.loginBoxWrapper {
+  display: flex;
+  justify-content: space-between;
+
+  width: 45vw;
+  height: 45vh;
+  background: #36393f;
+  border-radius: 8px;
+  padding: 30px 44px;
+
+  h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #72767d;
+    font-size: 62px;
+  }
+  .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 22px;
+
+    margin-top: 3vh;
+    width: 20vw;
+    height: 6vh;
+
+    background: #40834f;
+    border-radius: 4px;
+
+    transition: filter 0.2s;
+
+    cursor: pointer;
+
+    :hover {
+      filter: brightness(0.8);
+      cursor: pointer;
+    }
+  }
+
+  .loginGitGoogle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+
+    .git {
+      display: flex;
+      flex-direction: row;
+      h2 {
+        margin-top: 10px;
+        padding-left: 15px;
+      }
+      margin-bottom: 30px;
+      :hover {
+        filter: brightness(0.8);
+        cursor: pointer;
+      }
+    }
+
+    .google {
+      display: flex;
+      flex-direction: row;
+      h2 {
+        margin-top: 10px;
+        padding-left: 15px;
+      }
+      :hover {
+        filter: brightness(0.8);
+        cursor: pointer;
+      }
+    }
+  }
+}

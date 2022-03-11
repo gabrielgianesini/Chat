@@ -1,8 +1,7 @@
 import React from 'react'
 import { useLocation } from 'react-router';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { LoginBox } from '../components/LoginBox';
-import { NewLogin } from '../components/NewLogin'
+import { Login } from '../page/Login'
 
 
 export function Router () {
@@ -10,7 +9,7 @@ export function Router () {
  return (
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<NewLogin />} />
+          <Route path="/" element={<Login />} />
         </Routes>
       </BrowserRouter>
     )
