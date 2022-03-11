@@ -1,11 +1,17 @@
 import React from 'react'
-import { BrowserRouter, Route } from 'react-router-dom'
+import { useLocation } from 'react-router';
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { LoginBox } from '../components/LoginBox';
+import { NewLogin } from '../components/NewLogin'
 
-import {NewLogin} from '../components/NewLogin'
 
-export  function Routes() {
+export function Router () {
 
-    return (
-      <h1>Oi</h1>
+ return (
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<NewLogin />} />
+        </Routes>
+      </BrowserRouter>
     )
 }
